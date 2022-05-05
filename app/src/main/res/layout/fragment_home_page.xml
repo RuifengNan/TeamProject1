@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:id="@+id/Castles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/white"
+        >
+
+
+        <!-- Notice information -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/home_page_notice"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+
+        <!-- Alnwick Castle page -->
+        <LinearLayout
+            android:id="@+id/Alnwick_Castle_option"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_shadow"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/alnwickCastle_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:scaleType="centerCrop"
+                android:src="@drawable/alnwick_castle1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/fragment_circle_shape"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Alnwick Castle"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:text="Go >"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Auckland Castle page -->
+        <LinearLayout
+            android:id="@+id/Auckland_Castle_option"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_shadow"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/aucklandCastle_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:scaleType="centerCrop"
+                android:src="@drawable/auckland_castle1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/fragment_circle_shape"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Auckland Castle"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:text="Go >"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Bamburgh Castle page -->
+        <LinearLayout
+            android:id="@+id/Bamburgh_Castle_option"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_shadow"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/bamburghCastle_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bamburgh_castle1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/fragment_circle_shape"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bamburgh Castle"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:text="Go >"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Barnard Castle page -->
+        <LinearLayout
+            android:id="@+id/Barnard_Castle_option"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_shadow"
+            android:elevation="5dp">
+
+            <ImageView
+                android:id="@+id/barnardCastle_jpg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:scaleType="centerCrop"
+                android:src="@drawable/barnard_castle1"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/fragment_circle_shape"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Barnard Castle"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:text="Go >"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

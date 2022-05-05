@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <!--Menu Home Button -->
+        <LinearLayout
+            android:id="@+id/index_menu_Home"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/index_menu_Home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/home_gray"
+                android:textColor="#706F6F"
+                android:text="Home"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+
+        <!--Menu Calendar Button -->
+        <LinearLayout
+            android:id="@+id/index_menu_Calendar"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/index_menu_Calendar_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/calendar_gray"
+                android:textColor="#706F6F"
+                android:text="Calendar"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+
+        <!--Menu User Button -->
+        <LinearLayout
+            android:id="@+id/index_menu_User"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/index_menu_User_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableTop="@drawable/user_gray"
+                android:textColor="#706F6F"
+                android:text="User"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

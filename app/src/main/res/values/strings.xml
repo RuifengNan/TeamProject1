@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TeamProject</string>
+    <string name="login">login</string>
+    <string name="hello">Hello</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="main_bottom_castles">Alnwick | Aukland | Bamburgh | Barnard</string>
+    <string name="home_page_notice">Notice: The trip to Alnwick Castle in 12:00 is canceled!</string>
+
+    <string name="alnwick_intro">
+        Alnwick Castle is a castle and country house in Alnwick in the English county of Northumberland.
+        It is the seat of The 12th Duke of Northumberland, built following the Norman conquest and
+        renovated and remodelled a number of times. It is a Grade I listed building and as of 2012
+        received over 800,000 visitors per year when combined with adjacent attraction The Alnwick Garden.
+    </string>
+
+    <string name="auckland_intro">
+        Auckland Castle, which is also known as Auckland Palace and to people that live locally as the
+        Bishop Castle or Bishop Palace, is located in the town of Bishop Auckland in County Durham,
+        England. In 1832, this castle replaced Durham Castle as the official residence of the Bishops
+        of Durham. It is now a tourist attraction, but still houses the Bishop offices; the Castle is
+        a Grade I listed building.
+    </string>
+
+    <string name="bamburgh_intro">
+        Bamburgh Castle is a castle on the northeast coast of England, by the village of Bamburgh in
+        Northumberland. It is a Grade I listed building.\n
+
+        The site was originally the location of a Celtic Brittonic fort known as Din Guarie and may
+        have been the capital of the kingdom of Bernicia from its foundation in c. 420 to 547. After
+        passing between the Britons and the Anglo-Saxons three times, the fort came under Anglo-Saxon
+        control in 590. The fort was destroyed by Vikings in 993, and the Normans later built a new
+        castle on the site, which forms the core of the present one. After a revolt in 1095 supported
+        by the castle\'s owner, it became the property of the English monarch.\n
+
+        In the 17th century, financial difficulties led to the castle deteriorating, but it was restored
+        by various owners during the 18th and 19th centuries. It was finally bought by the Victorian era
+        industrialist William Armstrong, who completed its restoration. The castle still belongs to the
+        Armstrong family and is open to the public.
+
+    </string>
+
+    <string name="barnard_intro">
+        Barnard Castle is a market town on the north bank of the River Tees, in County Durham,
+        Northern England. The town is named after and built around a medieval castle ruin. The towns
+        Bowes Museums has an 18th-century Silver Swan automaton exhibit and paintings by Goya and El Greco.\n
+
+        It sits on the opposite bank to Startforth and is 21 miles south west of the county
+        town of Durham. Nearby towns include Bishop Auckland to the north east, Darlington to the
+        east and Richmond in North Yorkshire to the south-east. The largest employer is GlaxoSmithKline,
+        with a manufacturing facility on the town outskirts.
+
+    </string>
+
+</resources>

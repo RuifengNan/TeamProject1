@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/TeamProject/app/src/main/res/drawable-v24/button_circle_shape.xml" value="0.154" />
+        <entry key="..\:/TeamProject/app/src/main/res/drawable/background_shadow.xml" value="0.1075" />
+        <entry key="..\:/TeamProject/app/src/main/res/drawable/button_circle_shape.xml" value="0.154" />
+        <entry key="..\:/TeamProject/app/src/main/res/drawable/fragment_circle_shape.xml" value="0.1075" />
+        <entry key="..\:/TeamProject/app/src/main/res/drawable/user_order_circle_shape.xml" value="0.1075" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/about_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/activity_login.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/activity_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/activity_register.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/after_click_order_now.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/alnwick_castle_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/auckland_castle_page.xml" value="0.3828571428571429" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/bamburgh_castle_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/barnard_castle_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/credit_card_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/feedback_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/fragmeng_home_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/fragment_calendar_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/fragment_home_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/fragment_user_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/help_and_support.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/legal_page.xml" value="0.2033514492753623" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/main_page_after_login.xml" value="0.18857142857142858" />
+        <entry key="..\:/TeamProject/app/src/main/res/layout/setting_page.xml" value="0.2033514492753623" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

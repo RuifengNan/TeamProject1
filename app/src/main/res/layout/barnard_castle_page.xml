@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F3F2F2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/back_botton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name_of_Barnard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Barnard Castle"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/barnard_castle_view"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barnard_castle2"
+            android:scaleType="centerCrop"/>
+
+        <!-- Route-information option -->
+        <LinearLayout
+            android:id="@+id/route_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/user_order_circle_shape"
+            android:elevation="5dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Route information"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=">"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/barnard_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/user_order_circle_shape"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Introduction"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:id="@+id/barnard_castle_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/barnard_intro"
+                />
+            <ImageView
+                android:id="@+id/barnard_castle_img1"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/barnard_castle1"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:id="@+id/barnard_castle_img2"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/barnard_castle2"
+                android:scaleType="centerCrop"
+                />
+        </LinearLayout>
+
+
+        <!-- Restaurant option -->
+        <LinearLayout
+            android:id="@+id/restaurant_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="@drawable/user_order_circle_shape"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="#ACACAC"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+
+                    <!--Restaurant1-->
+                    <LinearLayout
+                        android:id="@+id/restaurant1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/user_order_circle_shape"
+                        android:elevation="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <ImageView
+                            android:id="@+id/restaurant1_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="Restaurant1"
+                            android:layout_weight="3"
+                            />
+
+                    </LinearLayout>
+
+                    <!--Restaurant2-->
+                    <LinearLayout
+                        android:id="@+id/restaurant2"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/user_order_circle_shape"
+                        android:elevation="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:id="@+id/restaurant2_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="Restaurant2"
+                            android:layout_weight="3"
+                            />
+
+                    </LinearLayout>
+
+                    <!--Restaurant3-->
+                    <LinearLayout
+                        android:id="@+id/restaurant3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/user_order_circle_shape"
+                        android:elevation="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:id="@+id/restaurant3_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="Restaurant3"
+                            android:layout_weight="3"
+                            />
+
+                    </LinearLayout>
+
+                    <!--Restaurant4-->
+                    <LinearLayout
+                        android:id="@+id/restaurant4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_margin="10dp"
+                        android:padding="10dp"
+                        android:background="@drawable/user_order_circle_shape"
+                        android:elevation="5dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        >
+                        <ImageView
+                            android:id="@+id/restaurant4_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="7"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:text="Restaurant4"
+                            android:layout_weight="3"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <Button
+            android:textAllCaps="false"
+            android:id="@+id/order_now"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_circle_shape"
+            android:text="Order Now"
+            android:textColor="@color/white"
+            android:elevation="5dp"
+            />
+    </LinearLayout>
+</ScrollView>
